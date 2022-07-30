@@ -8,6 +8,7 @@ import { shortenAddress } from "../utils/shortenAddress";
 const Input = ({ placeholder, name, type, value, handlechange }) => (
   <input
     type={type}
+    min="0"
     placeholder={placeholder}
     step="0.001"
     value={value}
